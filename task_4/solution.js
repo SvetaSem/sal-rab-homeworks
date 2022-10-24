@@ -12,7 +12,7 @@ function parseProducts(json) {
 }
 
 // Напишите функцию renderProductsCards(json)
-function renderProductsCards(json)
+function renderProductsCards(json) {
 // Аргументом функции является JSON
 // Выполните функцию clearProducts - она уже написана в коде, просто вызовите ее, аргументы не требуются
 clearProducts();
@@ -23,5 +23,6 @@ let length = products.length;
 // Напишите цикл, в котором перебираете все products от 0 до (length - 1)
 for(let i = 0; i < length; i += 1){
     addProduct(products[i]);
+}
 }
 // и выполняете addProduct с каждым элементом массива products (передавая элемент массива как аргумент)
